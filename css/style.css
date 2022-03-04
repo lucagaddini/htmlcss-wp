@@ -26,12 +26,6 @@ body{
   color: grey;
 }
 
-/* header{ */
-  /* height: 120px; */
-   /* Da togliere successivamente */
-  /* background-color: #e579e6; */
-/* } */
-
 footer{
   height: 50px;
    /* Da togliere successivamente */
@@ -39,16 +33,8 @@ footer{
   margin-bottom: 20px;
 }
 
-main{
-  
-  /* Da togliere successivamente */
-  /* background-color: #0283fe;
-  height: 600px; */
-}
-
 .banner{
   height: 500px;
-  /* background-color: #e1d77a; */
 }
 
 
@@ -62,7 +48,6 @@ UTILITY CLASS
 
 .col{
   float: left;
-  /* background-color: orange; */
 }
 
 .bottom-margin{
@@ -140,32 +125,15 @@ BANNER SECTION
 MAIN
 */
 
-/* Da togliere successivamente */
-/* .top-main, .col{
-  background-color: #abcfe6;
-} */
-/* /Da togliere successivamente */
-
-.top-main{
-
-  /* Da togliere successivamente */
-  /* height: 50px; */
-}
-
 aside{
   width: 19%;
   margin: 25px 0;
-  
-  /* Da togliere successivamente */
-  /* height: 500px; */
 }
 
 .mid-col{
   width: 60%;
   margin: 25px 1%;
 
-  /* Da togliere successivamente */
-  /* height: 500px; */
 }
 
 .col-title,h1 {
