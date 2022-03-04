@@ -28,8 +28,6 @@ body{
 
 footer{
   height: 50px;
-   /* Da togliere successivamente */
-  background-color: #8802fe;
   margin-bottom: 20px;
 }
 
@@ -108,8 +106,6 @@ BANNER SECTION
   overflow: hidden;
 }
 
-
-
 .banner-text-box{
   color: white;
   width: 55%;
@@ -162,4 +158,19 @@ aside{
 
 .main-banner-right{
   background-image: url('/img/img-3.jpg');
+  }
+
+
+/* 
+FOOTER
+*/
+
+  footer p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+
+  .red-heart{
+    color: red;
   }
