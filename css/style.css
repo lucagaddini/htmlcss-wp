@@ -44,6 +44,10 @@ main{
   height: 600px;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* 
 UTILITY CLASS
 */
@@ -60,6 +64,37 @@ UTILITY CLASS
 .bottom-margin-half{
   margin-bottom: 7.5px;
 
+}
+
+
+/* 
+HEADER
+*/
+
+.logo-box{
+  border-right: 0.5px solid gray;
+  width: 14%;
+}
+
+.logo{
+  width: 90%;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 15px 15px 15px 0;
+}
+
+
+nav a{
+  color: grey;
+  text-transform: uppercase;
+  
+}
+
+nav a:hover{
+  color: red;  
 }
 
 
