@@ -1,0 +1,103 @@
+/* 
+GENERAL
+*/
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  }
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  background-color: white;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  height: 120px;
+   /* Da togliere successivamente */
+  background-color: #e579e6;
+}
+
+footer{
+  height: 50px;
+   /* Da togliere successivamente */
+  background-color: #8802fe;
+  margin-bottom: 20px;
+}
+
+main{
+  
+  /* Da togliere successivamente */
+  background-color: #0283fe;
+  height: 600px;
+}
+
+/* 
+UTILITY CLASS
+*/
+
+.col{
+  float: left;
+  background-color: orange;
+}
+
+.bottom-margin{
+  margin-bottom: 20px;
+}
+
+.bottom-margin-half{
+  margin-bottom: 7.5px;
+
+}
+
+
+/* 
+MAIN
+*/
+
+.banner{
+  height: 450px;
+  background-color: #e1d77a;
+}
+
+
+/* Da togliere successivamente */
+.top-main, .col{
+  background-color: #abcfe6;
+}
+/* /Da togliere successivamente */
+
+
+.top-main{
+
+  /* Da togliere successivamente */
+  height: 50px;
+}
+
+aside{
+  width: 19%;
+  margin: 20px 0;
+  
+  /* Da togliere successivamente */
+  height: 500px;
+}
+
+.mid-col{
+  width: 60%;
+  margin: 20px 1%;
+
+  /* Da togliere successivamente */
+  height: 500px;
+}
