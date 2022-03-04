@@ -42,13 +42,13 @@ footer{
 main{
   
   /* Da togliere successivamente */
-  background-color: #0283fe;
-  height: 600px;
+  /* background-color: #0283fe;
+  height: 600px; */
 }
 
 .banner{
   height: 500px;
-  background-color: #e1d77a;
+  /* background-color: #e1d77a; */
 }
 
 
@@ -62,7 +62,7 @@ UTILITY CLASS
 
 .col{
   float: left;
-  background-color: orange;
+  /* background-color: orange; */
 }
 
 .bottom-margin{
@@ -74,6 +74,10 @@ UTILITY CLASS
 
 }
 
+.overlay-background{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
 /* 
 HEADER
@@ -119,10 +123,7 @@ BANNER SECTION
   overflow: hidden;
 }
 
-.overlay-background{
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-}
+
 
 .banner-text-box{
   color: white;
@@ -140,11 +141,10 @@ MAIN
 */
 
 /* Da togliere successivamente */
-.top-main, .col{
+/* .top-main, .col{
   background-color: #abcfe6;
-}
+} */
 /* /Da togliere successivamente */
-
 
 .top-main{
 
@@ -157,7 +157,7 @@ aside{
   margin: 25px 0;
   
   /* Da togliere successivamente */
-  height: 500px;
+  /* height: 500px; */
 }
 
 .mid-col{
@@ -165,17 +165,33 @@ aside{
   margin: 25px 1%;
 
   /* Da togliere successivamente */
-  height: 500px;
+  /* height: 500px; */
 }
 
 .col-title,h1 {
   color: black;
+  padding:10px 0;
+  
 }
 
-.col-title{
-  padding-bottom: 5px;
+.main-secondary-banner{
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.h1{
-  padding-bottom: 5px;
-}
+.main-banner-left{
+  background-image: url('/img/img-1.jpg');
+  }
+
+.main-banner-center{
+  background-image: url('/img/banner-2.jpg');
+  }
+
+.main-banner-right{
+  background-image: url('/img/img-3.jpg');
+  }
